@@ -1,0 +1,55 @@
+﻿.blog-card {
+  width: 350px;
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  font-family: "Figtree", sans-serif;
+}
+
+.card-cover {
+  width: 100%;
+  display: block;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.badge {
+  background: #f4d04e;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: 800;
+  font-size: 14px;
+}
+
+.date {
+  display: block;
+  margin-top: 8px;
+  color: gray;
+  font-size: 14px;
+}
+
+.card-title {
+  font-size: 22px;
+  margin: 15px 0;
+  font-weight: 800;
+}
+
+.card-desc {
+  font-size: 16px;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.card-author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar {
+  width: 35px;
+  border-radius: 50%;
+}
